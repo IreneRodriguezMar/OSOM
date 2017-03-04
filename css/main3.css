@@ -1,0 +1,31 @@
+/*imagens*/
+.img-tam{
+  width: 100%;
+  height: 400px;
+}
+.img-hg{
+  height: 300px;
+}
+.tam-text{
+  font-size: 30px;
+}
+/*media*/
+@media only screen and (max-width: 768px){
+    
+    
+  nav{
+    background-color: white!important;
+  }
+  li a{
+    color: black !important;
+  }
+  li a:hover{
+    background-color: rgba(44, 40, 36, 0.7)!important;
+  }
+  .img-res{
+    width: 200% !important;
+  }
+  .text-responsive{
+    font-size: 15px;
+  }
+}
